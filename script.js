@@ -130,7 +130,7 @@ const questions = [
     ],
   },
   {
-    category: "geography",
+    category: "Social Studies",
     questions: [
       {
         question: "Which is the longest river in the world?",
@@ -651,4 +651,5 @@ const resetQuiz = () => {
 
 nextQuestionBtn.addEventListener("click", renderQuestion);
 resultContainer.querySelector(".try-again-btn").addEventListener("click", resetQuiz);
+
 configContainer.querySelector(".start-quiz-btn").addEventListener("click", startQuiz);
